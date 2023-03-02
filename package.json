@@ -20,7 +20,7 @@
         }
     },
     "scripts": {
-        "clean": "rm -rf dist",
+        "clean": "rm -rf dist es demo",
         "dev": "vite --host 0.0.0.0 --port 8888",
         "vite-build": "vite build",
         "build": "npm run clean && npm run vite-build && npm run build:es && npm run build:umd",
