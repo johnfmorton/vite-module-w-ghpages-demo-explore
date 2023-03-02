@@ -5,7 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Module Demo Page</title>
-  <link rel="stylesheet" href="style.css" />
   <!-- Script tag for demo page purposes in demo-page-assets/demo.ts  -->
   <script type="module" src="demo-page-assets/demo.ts"></script>
 </head>
@@ -13,7 +12,11 @@
 <body>
   <h1>Module Demo Page</h1>
   <p>
-    Hello world. This is a demo page for the module demo page.
+    This is a demo page for the module demo page. It imports a typescript file during development. The typescript file is compiled to javascript and separate css file when hosted in a GitHub Pages page during production.
+  </p>
+
+  <p>
+    Below you can see if the module executed correctly.
   </p>
 
   <p id="messageOutput">
