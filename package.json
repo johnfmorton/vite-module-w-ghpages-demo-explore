@@ -1,37 +1,36 @@
 {
     "name": "vite-module-w-ghpages-demo",
-    "version": "1.0.0-alpha.11",
-    "description": "A web componet that creates a OS-native share button.",
+    "version": "1.0.0-alpha.1",
+    "description": "A demo repo.",
     "files": [
         "dist"
     ],
-    "main": "./dist/vite-module-w-ghpages-demo.umd.js",
+    "main": "./dist/main.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/johnfmorton/vite-module-w-ghpages-demo"
     },
-    "module": "./es/vite-module-w-ghpages-demo.es.js",
-    "unpkg": "./dist/vite-module-w-ghpages-demo.umd.js",
+    "module": "./es/main.js",
+    "unpkg": "./es/main.js",
     "types": "./dist/main.d.ts",
     "exports": {
         ".": {
-            "import": "./dist/vite-module-w-ghpages-demo.es.js",
-            "require": "./dist/vite-module-w-ghpages-demo.umd.js"
+            "import": "./es/main.js",
+            "require": "./dist/main.js"
         }
     },
     "scripts": {
+        "clean": "rm -rf dist",
         "dev": "vite --host 0.0.0.0 --port 8888",
-        "buildVite": "vite build",
-        "build": "tsc lib/main.ts --declaration --emitDeclarationOnly --outDir dist",
+        "build": "npm run clean && npm run build:es && npm run build:umd",
+        "build:old": "npm run clean && tsc lib/main.ts --declaration --emitDeclarationOnly --outDir dist --allowJs false --declarationDir dist --declarationMap false --sourceMap false --removeComments true --noEmit false --module esnext --target esnext --lib esnext,dom",
+        "build:es": "npm run clean && tsc lib/main.ts --declaration --outDir es --allowJs false --declarationDir es --declarationMap false --sourceMap false --removeComments true --noEmit false --module esnext --target esnext --lib esnext,dom",
+        "build:umd": "npm run clean && tsc lib/main.ts --declaration --outDir dist --allowJs false --declarationDir dist --declarationMap false --sourceMap false --removeComments true --noEmit false --module umd --target esnext --lib esnext,dom",
         "preview": "vite preview",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
-        "share",
-        "button",
-        "progressive",
-        "web-components",
-        "web-share-api"
+        "demo"
     ],
     "author": "John F. Morton <john@johnfmorton.com> (https://supergeekery.com)",
     "license": "MIT",
