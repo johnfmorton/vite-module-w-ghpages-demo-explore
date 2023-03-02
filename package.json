@@ -24,7 +24,6 @@
         "dev": "vite --host 0.0.0.0 --port 8888",
         "vite-build": "vite build",
         "build": "npm run clean && npm run vite-build && npm run build:es && npm run build:umd",
-        "build:old": "npm run clean && tsc lib/main.ts --declaration --emitDeclarationOnly --outDir dist --allowJs false --declarationDir dist --declarationMap false --sourceMap false --removeComments true --noEmit false --module esnext --target esnext --lib esnext,dom",
         "build:es": "npm run clean && tsc lib/main.ts --declaration --outDir es --allowJs false --declarationDir es --declarationMap false --sourceMap false --removeComments true --noEmit false --module esnext --target esnext --lib esnext,dom",
         "build:umd": "npm run clean && tsc lib/main.ts --declaration --outDir dist --allowJs false --declarationDir dist --declarationMap false --sourceMap false --removeComments true --noEmit false --module umd --target esnext --lib esnext,dom",
         "preview": "vite preview",
