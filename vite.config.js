@@ -1,5 +1,5 @@
 // import path from 'path'
-// import { defineConfig } from 'vite'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
   base: 'https://johnfmorton.github.io/vite-module-w-ghpages-demo-explore/', /// Set this to './' if your site is deployed at https://<USERNAME>.github.io/<REPO>/.
