@@ -1,5 +1,5 @@
 # vite-module-w-ghpages-demo
-This is a repo to test a Vite workflow that allows you to create a demo page for your module and publish it to GitHub Pages. It also allows you to publish your module to NPM.
+This is a repo serves as a template workflow that uses Vite to help you create a module, exported as a Common JS module and an ES module. It also includes a demo page that allows you to text your module during development and then publish your demo page to GitHub Pages when push your commit to GitHub. It also allows you to publish your module to NPM every time you push a commit to GitHub with an new version number in your package.json file.
 
 ## What's in this repo
 
