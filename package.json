@@ -1,0 +1,42 @@
+{
+    "name": "vite-module-w-ghpages-demo",
+    "version": "1.0.0-alpha.11",
+    "description": "A web componet that creates a OS-native share button.",
+    "files": [
+        "dist"
+    ],
+    "main": "./dist/vite-module-w-ghpages-demo.umd.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/johnfmorton/vite-module-w-ghpages-demo"
+    },
+    "module": "./es/vite-module-w-ghpages-demo.es.js",
+    "unpkg": "./dist/vite-module-w-ghpages-demo.umd.js",
+    "types": "./dist/main.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/vite-module-w-ghpages-demo.es.js",
+            "require": "./dist/vite-module-w-ghpages-demo.umd.js"
+        }
+    },
+    "scripts": {
+        "dev": "vite --host 0.0.0.0 --port 8888",
+        "buildVite": "vite build",
+        "build": "tsc lib/main.ts --declaration --emitDeclarationOnly --outDir dist",
+        "preview": "vite preview",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "share",
+        "button",
+        "progressive",
+        "web-components",
+        "web-share-api"
+    ],
+    "author": "John F. Morton <john@johnfmorton.com> (https://supergeekery.com)",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^4.9.5",
+        "vite": "^4.1.3"
+    }
+}

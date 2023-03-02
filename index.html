@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Module Demo Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <script type="module">
+    import ModuleDemoPage from './lib/main.ts';
+    ModuleDemoPage.init("Success! The module is working.")
+  </script>
+
+  <h1>Module Demo Page</h1>
+  <p>
+    Hello world. This is a demo page for the module demo page.
+  </p>
+
+  <p id="messageOutput">
+    <!-- This is where the message will be output -->
+    If you see this message, the module is not working.
+  </p>
+
+</body>
+
+</html>
