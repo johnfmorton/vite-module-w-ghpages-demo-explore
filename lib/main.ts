@@ -4,10 +4,8 @@
 // Use `output.exports: "named"` to disable this warning.
 
 function init(message: string): void {
-  // alert("Init called");
   console.log(message);
   const messageOutputElement = document.getElementById("messageOutput");
-
   if (messageOutputElement) {
     messageOutputElement.innerHTML = message;
   }
