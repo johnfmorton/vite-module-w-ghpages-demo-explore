@@ -9,7 +9,7 @@ The other imporatnt page is the `index.html` file. This is the demo page for you
 
 You can see the demo page for this repo at:
 
-https://johnfmorton.github.io/vite-module-w-ghpages-demo-explore/
+https://johnfmorton.github.io/vite-module-builder-w-ghpages-npm-template/
 
 ## How to use
 

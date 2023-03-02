@@ -5,8 +5,8 @@ module.exports = defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'lib/main.ts'),
-      name: 'vite-module-w-ghpages-demo-explore',
-      fileName: (format) => `vite-module-w-ghpages-demo-explore.${format}.js`
+      name: 'vite-module-builder-w-ghpages-npm-template',
+      fileName: (format) => `vite-module-builder-w-ghpages-npm-template.${format}.js`
     },
     minify: false
   }
