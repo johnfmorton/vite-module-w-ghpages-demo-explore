@@ -5,18 +5,18 @@
     "files": [
         "dist"
     ],
-    "main": "./dist/main.js",
+    "main": "./dist/vite-module-w-ghpages-demo-explore.umd.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/johnfmorton/vite-module-builder-w-ghpages-npm-template"
     },
-    "module": "./es/main.js",
-    "unpkg": "./es/main.js",
+    "module": "./dist/vite-module-w-ghpages-demo-explore.es.js",
+    "unpkg": "./dist/vite-module-w-ghpages-demo-explore.es.js",
     "types": "./dist/types.d.ts",
     "exports": {
         ".": {
-            "import": "./es/main.js",
-            "require": "./dist/main.js"
+            "import": "./dist/vite-module-w-ghpages-demo-explore.es.js",
+            "require": "./dist/vite-module-w-ghpages-demo-explore.umd.js"
         }
     },
     "scripts": {
