@@ -23,7 +23,7 @@
         "clean": "rm -rf dist es demo",
         "dev": "vite --host 0.0.0.0 --port 8888",
         "vite-build": "vite build --config vite.demo.config.js",
-        "build": "vite build --config vite.demo.config.js && vite build && tsc lib/main.ts --declaration --emitDeclarationOnly --outFile dist/vite-module-builder-w-ghpages-npm-template.d.ts",
+        "build": "vite build --config vite.demo.config.js && vite build && tsc lib/vite-module-builder-w-ghpages-npm-template.ts --declaration --emitDeclarationOnly --outFile dist/vite-module-builder-w-ghpages-npm-template.d.ts",
         "preview": "vite preview",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -34,6 +34,7 @@
     "license": "MIT",
     "devDependencies": {
         "typescript": "^4.9.5",
-        "vite": "^4.1.3"
+        "vite": "^4.1.3",
+        "vite-plugin-banner": "^0.7.0"
     }
 }
