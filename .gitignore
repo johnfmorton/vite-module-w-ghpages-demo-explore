@@ -80,7 +80,7 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist - the 'dist' direcotory needed to be included for the NPM publish GitHub Action to work
 demo
 
 # Gatsby files
