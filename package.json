@@ -1,7 +1,7 @@
 {
     "name": "vite-module-builder-w-ghpages-npm-template",
-    "version": "1.0.0-alpha.1",
-    "description": "A demo repo.",
+    "version": "1.0.0-alpha.2",
+    "description": "This is a templare repo that will create a Vite workflow to ease creation of Javascript modules with a dev server, GitHub Pages support and automated publishing to NPM.",
     "files": [
         "dist"
     ],
@@ -29,7 +29,13 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
-        "demo"
+        "workflow",
+        "vite",
+        "typescript",
+        "npm",
+        "github",
+        "github-pages",
+        "npm-publish"
     ],
     "author": "John F. Morton <john@johnfmorton.com> (https://supergeekery.com)",
     "license": "MIT",
