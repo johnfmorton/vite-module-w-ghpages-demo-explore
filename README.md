@@ -1,8 +1,12 @@
 # Vite module builder template with automated GitHub Pages and npm publishing
 
-This is a repo serves as a template workflow that uses Vite to help you create a module, exported as a Common JS module and an ES module. It  feature a development page to easily test your module during development. Two preconfigured GitHub Actions are also included. The first will plubish a demo page to GitHub pages every time you upload your changes to the `main` branch. The second workflow allows you to publish your module to NPM every time you push a commit to GitHub with a new version number in your package.json file.
+This is a repo serves as a template workflow that uses Vite to help you create a module, exported as a Common JS module and an ES module.
 
-You write your module in Typescript and your published module will include a type definition file.
+It  features a development page to easily test your module during development. The development page is preconfigured with Tailwind CSS.
+
+Two preconfigured GitHub Actions are also included. The first will plubish a demo page to GitHub pages every time you upload your changes to the `main` branch. The second workflow allows you to publish your module to NPM every time you push a commit to GitHub with a new version number in your package.json file.
+
+You write your module in Typescript and your published module will include an automatically generated type definition file.
 
 ## Installation
 
