@@ -12,7 +12,7 @@ The name of the file is important. It is the name of the module you are creating
 * README.md - The README.md file for your module. You will need to update the name of the module in the file plus create documentation for your module.
 * vite.config.ts - The Vite configuration file for your module build process.
 * vite.demo.config.js - The Vite configuration file for your demo page build process for GitHub Pages.
-* demo-pages-assets/demo.ts - The demo page imports this file to test your module. You will need to update the name of the module in the file.
+* lib/vite-module-builder-w-ghpages-npm-template.ts - The demo page imports this file to test your module. You will need to update the name of the module in the file.
 
 For a working example, check out this repo: https://github.com/johnfmorton/progressive-share-button
 
