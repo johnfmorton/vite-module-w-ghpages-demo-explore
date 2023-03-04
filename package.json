@@ -1,6 +1,6 @@
 {
     "name": "vite-module-builder-w-ghpages-npm-template",
-    "version": "1.0.0-alpha.2",
+    "version": "1.0.0",
     "description": "This is a templare repo that will create a Vite workflow to ease creation of Javascript modules with a dev server, GitHub Pages support and automated publishing to NPM.",
     "files": [
         "dist"
