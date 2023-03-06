@@ -9,7 +9,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "noEmit": false,
+    "noEmit": false, // this project uses TypeScript to generate the type definitions
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
