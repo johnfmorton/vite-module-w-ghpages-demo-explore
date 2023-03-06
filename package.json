@@ -20,7 +20,7 @@
         }
     },
     "scripts": {
-        "clean": "rm -rf dist es demo",
+        "clean": "rm -rf dist demo",
         "dev": "vite --host 0.0.0.0 --port 8888",
         "vite-build": "vite build --config vite.demo.config.js",
         "build": "vite build --config vite.demo.config.js && vite build && tsc lib/vite-module-builder-w-ghpages-npm-template.ts --declaration --emitDeclarationOnly --outFile dist/vite-module-builder-w-ghpages-npm-template.d.ts",
