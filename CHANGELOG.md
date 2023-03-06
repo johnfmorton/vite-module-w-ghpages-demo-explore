@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 - Updated demo page styles for small screens.
+- tsconfig.json: Added `lib` property to include `DOM.Iterable`.
+- tsconfig.json: Added `forceConsistentCasingInFileNames` property set to `true`.
 
 ## [1.0.0] - 2023-03-04
 
