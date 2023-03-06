@@ -2,7 +2,7 @@
 
 This is a repo serves as a template workflow that uses Vite to help you create a module, exported as a Common JS module and an ES module.
 
-It  features a development page to easily test your module during development. The development page is preconfigured with Tailwind CSS.
+It features a development page to easily test your module during development. The development page is preconfigured with Tailwind CSS. Note that Tailwind CSS is _not_ included in the published module. If you are developing a web componet, for example, and want to use Tailwind CSS, you will need to include it in your project.
 
 Two preconfigured GitHub Actions are also included. The first will plubish a demo page to GitHub pages every time you upload your changes to the `main` branch. The second workflow allows you to publish your module to NPM every time you push a commit to GitHub with a new version number in your package.json file.
 

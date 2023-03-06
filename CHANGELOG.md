@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated demo page styles for small screens.
 - tsconfig.json: Added `lib` property to include `DOM.Iterable`.
 - tsconfig.json: Added `forceConsistentCasingInFileNames` property set to `true`.
+- Added a note about Tailwind CSS not being included in the published module to the README.md file.
 
 ## [1.0.0] - 2023-03-04
 
