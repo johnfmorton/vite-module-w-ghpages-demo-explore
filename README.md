@@ -14,6 +14,11 @@ You can use it as a template to create your own repo. You can do this by clickin
 
 This will create a new repo in your GitHub account. You can then clone the repo to your local machine and start working on your module.
 
+## Video walk through
+
+You can read about this repo on [my blog, SuperGeekery.com](https://supergeekery.com/blog/make-javascript-module-creation-easier-with-vite-and-automated-github-pages-and-npm-publishing). Below is a link to the video walk through that's part of the blog post.
+
+[![Watch the video](https://img.youtube.com/vi/fqL4Td5hYY0/maxresdefault.jpg)](https://youtu.be/fqL4Td5hYY0)
 ## Run the configuration script
 
 This repo includes a configuration script that will help you update the name of your module and other settings. To run the script, you will need to have Node installed on your machine. You can download it from https://nodejs.org/en/download/.
